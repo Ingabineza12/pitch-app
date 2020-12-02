@@ -5,7 +5,7 @@ class Config:
     General Configuration parent class
     '''
     SECRET_KEY="SXFkm1kaBqur0Xy6goZc4NhFTEgK5BCx"
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringaschool:7363@localhost/pitchapp'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://deborah:1224@localhost/pitchapp'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
 
     MAIL_SERVER = 'smtp.gmail.com'

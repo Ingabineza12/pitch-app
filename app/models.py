@@ -122,9 +122,6 @@ class Downvote(db.Model):
         return f"{self.user_id}:{self.pitch_id}"
 
 
-
-
-
 class Comment(db.Model):
     __tablename__ = 'comments'
 
