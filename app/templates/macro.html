@@ -19,10 +19,10 @@
                     </blockquote>
 
 
-                    <span>{{pitch.comment.count()}} Comments</span>
-                    <span class="foot btn btn-success" > <a class="text-white" href="{{url_for('main.like',id = pitch.id)}}"><i class="fa fa-thumbs-up" style="font-size:18px;color: green"></i> {{pitch.upvote.count()}}Upvote</a></span>
-                    <span class="foot btn btn-danger"> <a class="text-white" href="{{url_for('main.dislike',id = pitch.id)}}"> <i class="fa fa-thumbs-down" style="color:red;"></i> {{pitch.downvote.count()}}Downvote</a></span>
-                    <a href="{{url_for('main.comment',pitch_id = pitch.id)}}" class="btn btn-info btn-sm"> Comment</a>
+                    <span>{{pitch.comment.count()}} COMMENTS</span>
+                    <span class="foot btn btn-success" > <a class="text-white" href="{{url_for('main.like',id = pitch.id)}}"><i class="fa fa-thumbs-up" style="font-size:18px;color: green"></i> {{pitch.upvote.count()}}UPVOTE</a></span>
+                    <span class="foot btn btn-danger"> <a class="text-white" href="{{url_for('main.dislike',id = pitch.id)}}"> <i class="fa fa-thumbs-down" style="color:red;"></i> DOWNVOTE{pitch.downvote.count()}</a></span>
+                    <a href="{{url_for('main.comment',pitch_id = pitch.id)}}" class="btn btn-info btn-sm"> COMMENT</a>
                 </div>
             </div>
         </div>
