@@ -5,7 +5,7 @@ class Config:
     General Configuration parent class
     '''
     SECRET_KEY="ingabineza12"
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://deborah:1224@localhost/pitchapp'
+
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
 
     MAIL_SERVER = 'smtp.gmail.com'
@@ -27,6 +27,8 @@ class DevConfig(Config):
     '''
     Development configuration child class
     '''
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://deborah:1224@localhost/pitches'
+
     DEBUG = True
 
 config_options = {
