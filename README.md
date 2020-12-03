@@ -1,16 +1,16 @@
 # Pitch-app
 
-## contributor
+### contributor
 
-### Mugiraneza Ingabire Deborah
+ Mugiraneza Ingabire Deborah
 
-## Description
+### Description
 
-### This application show all Pitches entered and a user can enter his/her own.you need to login first and you can comment any comment and like any pitches you want.
+This application show all Pitches entered and a user can enter his/her own.you need to login first and you can comment any comment and like any pitches you want.
 
 ## Project instruction
 
-### to start using this app you can first clone it on github use code . for visual code
+to start using this app you can first clone it on github use code . for visual code
 
 ## Technology used
 Python3.6
